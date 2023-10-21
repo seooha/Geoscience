@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>권서하 수행평가</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>
+        <button>Seoha</button>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <button>조현웅쌤</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <h4>Hello World!</h4>
+      <h2>1201 권서하의 지구과학?<br>수행평가 사이트입니다.</h2>
+      <p>스크롤하여 창을 내리세요<br>사용환경에 따라 텍스트가 잘릴 수 있습니다.</p>
+    </div>
+  </main>
+
+  <section id="program">
+    <div class="container">
+      <h2>행성의 대기 조성</h2>
+      <img id="img" src="./img/미리보기.jpg" style="width:50%;" >
+      <br>
+    </div>
+    <div class="inner">
+      <div class="container mt-3">
+        <button onclick="mercury()" type="button" class="btn btn-outline-primary">수성</button>
+        <button onclick="venus()" type="button" class="btn btn-outline-secondary">금성</button>
+        <button onclick="earth()" type="button" class="btn btn-outline-success">지구</button>
+        <button onclick="mars()" type="button" class="btn btn-outline-info">화성</button>
+        <button onclick="jupiter()" type="button" class="btn btn-outline-warning">목성</button>
+        <button onclick="saturn()" type="button" class="btn btn-outline-danger">토성</button>
+        <button onclick="uranus()" type="button" class="btn btn-outline-dark">천왕성</button>
+        <button onclick="neptune()" type="button" class="btn btn-outline-primary">해왕성</button>
+        <p>원하는 행성을 클릭하면 그에 맞는 이미지가 보여집니다.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a, a:link, a:visited{
+    color:inherit;
+    text-decoration: none;
+}
+
+li{
+    list-style:none;
+}
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+
+header{
+    position: fixed;
+    color:white;
+    top:0;
+    z-index:1;
+    width:100%;
+    padding:1rem;
+}
+
+header .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+header h1 button{
+    background:transparent;
+    border:0;
+    cursor:pointer;
+    color:white
+}
+
+header nav ul{
+    display:flex;
+}
+
+header nav ul li{
+    padding:10px;
+}
+
+header button{
+    background:transparent;
+    border:0;
+    cursor:pointer;
+}
+
+header nav ul li button{
+    font-size:1.2rem;
+    color:white;
+}
+
+main{
+    width:100%;
+    height:100vh;
+    color:white;
+    background: black center center;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+main h4{
+    font-size:2rem;
+}
+
+main h2{
+    font-size:3.5rem;
+    margin:2rem 0;
+    letter-spacing: 4px;
+}
+
+main p{
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+
+section{
+    padding:5rem 0; /*위아래 여백*/
+}
+
+section .title h2{
+    font-size:3.5rem;
+}
+
+section .inner{
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
